@@ -1,0 +1,52 @@
+*{
+	margin : 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#canvas{
+	border: solid 2px black;
+	margin: 50px;
+}
+
+#menu{
+	padding: 16px;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+#skretch{
+	border: solid 1px black;
+	width: max-content;
+	text-align: center;
+}
+
+.color{
+	width: 20px;
+    height: 20px;
+	border-radius: 100%;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+.color_div{
+	display: flex;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+#black_color{
+	border: solid 2px black;
+}
+
+#red_color{
+	border: solid 2px red;
+}
+
+#yellow_color{
+	border: solid 2px yellow;
+}
+
+#green_color{
+	border: solid 2px green;
+}
